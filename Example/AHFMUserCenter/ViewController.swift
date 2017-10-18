@@ -47,7 +47,7 @@ class ViewController: UIViewController {
             return
         }
         
-        guard let vc = info[AHFMShowPageServices.keyGetVC] as? UIViewController else {
+        guard let vc = info[AHFMUserCenterServices.keyGetVC] as? UIViewController else {
             return
         }
         self.navigationController?.pushViewController(vc, animated: true)
